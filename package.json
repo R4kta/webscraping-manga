@@ -1,0 +1,35 @@
+{
+  "name": "webscraping-manga",
+  "version": "1.0.0",
+  "description": "getting mangas with providers",
+  "main": "index.js",
+  "author": "Jonathan Micael <jonathan.micaell917@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --ignore-watch node_modules src/index.ts",
+    "dev:debug": "ts-node-dev --inspect --ignore-watch node_modules src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.159",
+    "@types/pino": "^6.3.0",
+    "@types/prompts": "^2.0.8",
+    "@types/puppeteer": "^3.0.1",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "ts-node-dev": "^1.0.0-pre.57",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.20",
+    "pino": "^6.5.1",
+    "prompts": "^2.3.2",
+    "puppeteer": "^5.2.1"
+  }
+}
